@@ -1,6 +1,7 @@
 /* Proof of concept code for Egg Hunting shellcode */
 /* Author: Ty Gast // SLAE-1461 */
 /* This PoC will use heap memory to store the "egg" */
+/* Compile with: gcc -fno-stack-protector -z execstack */
 
 #include <stdio.h>
 #include <string.h>
